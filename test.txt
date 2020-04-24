@@ -1,3 +1,3 @@
-Hello World!
-
-This is the test document.
+Welcome to the test document for the Document Reader!
+The program displays the file name, counts words, document lines, characters, numbers 1 2 3 4 56 7
+and it counts special characters including spaces!

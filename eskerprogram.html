@@ -1,11 +1,41 @@
-  
 <!DOCTYPE html>
 <html>
 	<head>
-		<title></title>
+		<title>Document Reader</title>
 	</head>
 	<body>
-		<script src="eskerprogram.jsjs"  type="text/javascript"></script> test
-
+        <h1>Document Reader By Steve </h1>
+        <script src="eskerprogram.js" type="text/javascript"></script> 
+          <input type='file' accept='text/plain' 
+          onchange='openFile(event),  nameOfFile(this)' >
+          <br>
+          <br>
+          <div>File Name:
+            <pre id='fileName'> </pre>
+          </div>
+          <div>File Contents:
+            <pre id='displayText'></pre>
+          </div>
+          <br>
+          <div>Number of Strings in File:
+            <pre id='stringCount'></pre>
+          </div>
+          <br>
+          <div>Number of Lines in File:
+            <pre id='lineCount'></pre>
+          </div>
+          <br>
+          <div>Number of Characters in File:
+            <pre id='charCount'></pre>
+          </div>
+          <br>
+          <div>Count of Numbers in File:
+            <pre id='intCount'></pre>
+          </div>
+          <br>
+          <div>Count of Special Characters in File:
+            <pre id='specChars'></pre>
+          </div>
+          <br>
 	</body>
 </html>
